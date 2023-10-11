@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		133541FC2AD67BDB00024D45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133541FB2AD67BDB00024D45 /* AppDelegate.swift */; };
+		133541FE2AD67BDB00024D45 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133541FD2AD67BDB00024D45 /* SceneDelegate.swift */; };
+		133542002AD67BDB00024D45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133541FF2AD67BDB00024D45 /* ViewController.swift */; };
+		133542032AD67BDB00024D45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 133542012AD67BDB00024D45 /* Main.storyboard */; };
+		133542052AD67BDC00024D45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 133542042AD67BDC00024D45 /* Assets.xcassets */; };
+		133542082AD67BDC00024D45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 133542062AD67BDC00024D45 /* LaunchScreen.storyboard */; };
+		133542132AD67BDC00024D45 /* SonorCloudProjectLatestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133542122AD67BDC00024D45 /* SonorCloudProjectLatestTests.swift */; };
+		1335421D2AD67BDC00024D45 /* SonorCloudProjectLatestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1335421C2AD67BDC00024D45 /* SonorCloudProjectLatestUITests.swift */; };
+		1335421F2AD67BDC00024D45 /* SonorCloudProjectLatestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1335421E2AD67BDC00024D45 /* SonorCloudProjectLatestUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1335420F2AD67BDC00024D45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 133541F02AD67BDB00024D45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 133541F72AD67BDB00024D45;
+			remoteInfo = SonorCloudProjectLatest;
+		};
+		133542192AD67BDC00024D45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 133541F02AD67BDB00024D45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 133541F72AD67BDB00024D45;
+			remoteInfo = SonorCloudProjectLatest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		133541F82AD67BDB00024D45 /* SonorCloudProjectLatest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SonorCloudProjectLatest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		133541FB2AD67BDB00024D45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		133541FD2AD67BDB00024D45 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		133541FF2AD67BDB00024D45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		133542022AD67BDB00024D45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		133542042AD67BDC00024D45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		133542072AD67BDC00024D45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		133542092AD67BDC00024D45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1335420E2AD67BDC00024D45 /* SonorCloudProjectLatestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SonorCloudProjectLatestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		133542122AD67BDC00024D45 /* SonorCloudProjectLatestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonorCloudProjectLatestTests.swift; sourceTree = "<group>"; };
+		133542182AD67BDC00024D45 /* SonorCloudProjectLatestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SonorCloudProjectLatestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1335421C2AD67BDC00024D45 /* SonorCloudProjectLatestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonorCloudProjectLatestUITests.swift; sourceTree = "<group>"; };
+		1335421E2AD67BDC00024D45 /* SonorCloudProjectLatestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonorCloudProjectLatestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		133541F52AD67BDB00024D45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1335420B2AD67BDC00024D45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		133542152AD67BDC00024D45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		133541EF2AD67BDB00024D45 = {
+			isa = PBXGroup;
+			children = (
+				133541FA2AD67BDB00024D45 /* SonorCloudProjectLatest */,
+				133542112AD67BDC00024D45 /* SonorCloudProjectLatestTests */,
+				1335421B2AD67BDC00024D45 /* SonorCloudProjectLatestUITests */,
+				133541F92AD67BDB00024D45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		133541F92AD67BDB00024D45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				133541F82AD67BDB00024D45 /* SonorCloudProjectLatest.app */,
+				1335420E2AD67BDC00024D45 /* SonorCloudProjectLatestTests.xctest */,
+				133542182AD67BDC00024D45 /* SonorCloudProjectLatestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		133541FA2AD67BDB00024D45 /* SonorCloudProjectLatest */ = {
+			isa = PBXGroup;
+			children = (
+				133541FB2AD67BDB00024D45 /* AppDelegate.swift */,
+				133541FD2AD67BDB00024D45 /* SceneDelegate.swift */,
+				133541FF2AD67BDB00024D45 /* ViewController.swift */,
+				133542012AD67BDB00024D45 /* Main.storyboard */,
+				133542042AD67BDC00024D45 /* Assets.xcassets */,
+				133542062AD67BDC00024D45 /* LaunchScreen.storyboard */,
+				133542092AD67BDC00024D45 /* Info.plist */,
+			);
+			path = SonorCloudProjectLatest;
+			sourceTree = "<group>";
+		};
+		133542112AD67BDC00024D45 /* SonorCloudProjectLatestTests */ = {
+			isa = PBXGroup;
+			children = (
+				133542122AD67BDC00024D45 /* SonorCloudProjectLatestTests.swift */,
+			);
+			path = SonorCloudProjectLatestTests;
+			sourceTree = "<group>";
+		};
+		1335421B2AD67BDC00024D45 /* SonorCloudProjectLatestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1335421C2AD67BDC00024D45 /* SonorCloudProjectLatestUITests.swift */,
+				1335421E2AD67BDC00024D45 /* SonorCloudProjectLatestUITestsLaunchTests.swift */,
+			);
+			path = SonorCloudProjectLatestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		133541F72AD67BDB00024D45 /* SonorCloudProjectLatest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 133542222AD67BDC00024D45 /* Build configuration list for PBXNativeTarget "SonorCloudProjectLatest" */;
+			buildPhases = (
+				133541F42AD67BDB00024D45 /* Sources */,
+				133541F52AD67BDB00024D45 /* Frameworks */,
+				133541F62AD67BDB00024D45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SonorCloudProjectLatest;
+			productName = SonorCloudProjectLatest;
+			productReference = 133541F82AD67BDB00024D45 /* SonorCloudProjectLatest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1335420D2AD67BDC00024D45 /* SonorCloudProjectLatestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 133542252AD67BDC00024D45 /* Build configuration list for PBXNativeTarget "SonorCloudProjectLatestTests" */;
+			buildPhases = (
+				1335420A2AD67BDC00024D45 /* Sources */,
+				1335420B2AD67BDC00024D45 /* Frameworks */,
+				1335420C2AD67BDC00024D45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				133542102AD67BDC00024D45 /* PBXTargetDependency */,
+			);
+			name = SonorCloudProjectLatestTests;
+			productName = SonorCloudProjectLatestTests;
+			productReference = 1335420E2AD67BDC00024D45 /* SonorCloudProjectLatestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		133542172AD67BDC00024D45 /* SonorCloudProjectLatestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 133542282AD67BDC00024D45 /* Build configuration list for PBXNativeTarget "SonorCloudProjectLatestUITests" */;
+			buildPhases = (
+				133542142AD67BDC00024D45 /* Sources */,
+				133542152AD67BDC00024D45 /* Frameworks */,
+				133542162AD67BDC00024D45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1335421A2AD67BDC00024D45 /* PBXTargetDependency */,
+			);
+			name = SonorCloudProjectLatestUITests;
+			productName = SonorCloudProjectLatestUITests;
+			productReference = 133542182AD67BDC00024D45 /* SonorCloudProjectLatestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		133541F02AD67BDB00024D45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					133541F72AD67BDB00024D45 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					1335420D2AD67BDC00024D45 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 133541F72AD67BDB00024D45;
+					};
+					133542172AD67BDC00024D45 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 133541F72AD67BDB00024D45;
+					};
+				};
+			};
+			buildConfigurationList = 133541F32AD67BDB00024D45 /* Build configuration list for PBXProject "SonorCloudProjectLatest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 133541EF2AD67BDB00024D45;
+			productRefGroup = 133541F92AD67BDB00024D45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				133541F72AD67BDB00024D45 /* SonorCloudProjectLatest */,
+				1335420D2AD67BDC00024D45 /* SonorCloudProjectLatestTests */,
+				133542172AD67BDC00024D45 /* SonorCloudProjectLatestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		133541F62AD67BDB00024D45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				133542082AD67BDC00024D45 /* LaunchScreen.storyboard in Resources */,
+				133542052AD67BDC00024D45 /* Assets.xcassets in Resources */,
+				133542032AD67BDB00024D45 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1335420C2AD67BDC00024D45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		133542162AD67BDC00024D45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		133541F42AD67BDB00024D45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				133542002AD67BDB00024D45 /* ViewController.swift in Sources */,
+				133541FC2AD67BDB00024D45 /* AppDelegate.swift in Sources */,
+				133541FE2AD67BDB00024D45 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1335420A2AD67BDC00024D45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				133542132AD67BDC00024D45 /* SonorCloudProjectLatestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		133542142AD67BDC00024D45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1335421D2AD67BDC00024D45 /* SonorCloudProjectLatestUITests.swift in Sources */,
+				1335421F2AD67BDC00024D45 /* SonorCloudProjectLatestUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		133542102AD67BDC00024D45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 133541F72AD67BDB00024D45 /* SonorCloudProjectLatest */;
+			targetProxy = 1335420F2AD67BDC00024D45 /* PBXContainerItemProxy */;
+		};
+		1335421A2AD67BDC00024D45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 133541F72AD67BDB00024D45 /* SonorCloudProjectLatest */;
+			targetProxy = 133542192AD67BDC00024D45 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		133542012AD67BDB00024D45 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				133542022AD67BDB00024D45 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		133542062AD67BDC00024D45 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				133542072AD67BDC00024D45 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		133542202AD67BDC00024D45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		133542212AD67BDC00024D45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		133542232AD67BDC00024D45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SonorCloudProjectLatest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kiran.sonorcheck.SonorCloudProjectLatest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		133542242AD67BDC00024D45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SonorCloudProjectLatest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kiran.sonorcheck.SonorCloudProjectLatest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		133542262AD67BDC00024D45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kiran.sonorcheck.SonorCloudProjectLatestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SonorCloudProjectLatest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SonorCloudProjectLatest";
+			};
+			name = Debug;
+		};
+		133542272AD67BDC00024D45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kiran.sonorcheck.SonorCloudProjectLatestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SonorCloudProjectLatest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SonorCloudProjectLatest";
+			};
+			name = Release;
+		};
+		133542292AD67BDC00024D45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kiran.sonorcheck.SonorCloudProjectLatestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SonorCloudProjectLatest;
+			};
+			name = Debug;
+		};
+		1335422A2AD67BDC00024D45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kiran.sonorcheck.SonorCloudProjectLatestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SonorCloudProjectLatest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		133541F32AD67BDB00024D45 /* Build configuration list for PBXProject "SonorCloudProjectLatest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				133542202AD67BDC00024D45 /* Debug */,
+				133542212AD67BDC00024D45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		133542222AD67BDC00024D45 /* Build configuration list for PBXNativeTarget "SonorCloudProjectLatest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				133542232AD67BDC00024D45 /* Debug */,
+				133542242AD67BDC00024D45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		133542252AD67BDC00024D45 /* Build configuration list for PBXNativeTarget "SonorCloudProjectLatestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				133542262AD67BDC00024D45 /* Debug */,
+				133542272AD67BDC00024D45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		133542282AD67BDC00024D45 /* Build configuration list for PBXNativeTarget "SonorCloudProjectLatestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				133542292AD67BDC00024D45 /* Debug */,
+				1335422A2AD67BDC00024D45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 133541F02AD67BDB00024D45 /* Project object */;
+}
